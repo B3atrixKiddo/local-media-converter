@@ -1,0 +1,25 @@
+{
+  "name": "vulcan-encoder",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run ffmpeg:copy && vite",
+    "build": "npm run ffmpeg:copy && vite build",
+    "preview": "vite preview",
+    "postinstall": "npm run ffmpeg:copy",
+    "ffmpeg:copy": "node scripts/copy-ffmpeg.mjs"
+  },
+  "dependencies": {
+    "@ffmpeg/core": "^0.12.10",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "vite": "^8.3.0"
+  }
+}
