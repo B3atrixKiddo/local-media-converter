@@ -3,7 +3,7 @@
 A browser-based audio and video converter. Files are processed locally by an ffmpeg
 build compiled to WebAssembly, so nothing is ever uploaded to a server.
 
-Website: https://online-media-converter.onrender.com/
+Website: https://online-media-converter.onrender.com
 
 ## Why
 
