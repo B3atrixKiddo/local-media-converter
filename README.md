@@ -73,5 +73,3 @@ opening the browser.
 
 Files are converted one at a time on purpose. The single-threaded core has one wasm heap,
 so running two conversions concurrently against the same instance corrupts its state.
-
-## Project structure
