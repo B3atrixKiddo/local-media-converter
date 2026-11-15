@@ -63,6 +63,7 @@ opening the browser.
 
 ## How it works
 
+
 1. `scripts/copy-ffmpeg.mjs` copies the ESM build of `@ffmpeg/core` from `node_modules`
    into `public/ffmpeg`, then checks the file actually carries its default export. A
    wrong build fails the script rather than reaching the browser.
